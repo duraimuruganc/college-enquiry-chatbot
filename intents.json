@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello"
+      ],
+      "responses": [
+        "Hey ^-^",
+        "Hello ^-^, how can I help you?",
+        "Hi there ^-^, what can I do for you?",
+        "Hi there ^-^, how can I help?"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "can u give the college contact number?",
+        "college contact num?",
+        "contact number?",
+        "contact number for further queries?",
+		"how can I contact the college"
+      ],
+      "responses": [
+        "1234567890 this is the contact number for further queries",
+        "You can contact on this number 1234567890 for further queries"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are available in the college?",
+        "courses available?",
+        "courses available in the college?",
+        "courses in college?",
+        "available courses"
+      ],
+      "responses": [
+        "This are the courses available MBA, BBA, Engineering and many more",
+        "we provide multiple courses such as MBA, BBA, Engineering and many more"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "admissions?",
+        "are admissions available in the college?",
+        "admission for certain course?",
+        "college admission?"
+      ],
+      "responses": [
+        "college admissions are available which department or which courses would u like to take?",
+        "yes admissions are available in our college which course do u like to join"
+      ]
+    },
+    {
+      "tag": "fee structure for engineering",
+      "patterns": [
+        "how much fee for engineering?",
+        "fees for engineering?",
+        "how much is the yearly fees for engineering?",
+        "engineering fees?"
+      ],
+      "responses": [
+        "please contact the college management for further details"
+      ]
+    },
+    {
+      "tag": "fee structure for mba",
+      "patterns": [
+        "how much fee for mba?",
+        "fees for mba?",
+        "how much is the yearly fees for mba?",
+        "mba fees?"
+      ],
+      "responses": [
+        "please contact the college management for further details"
+      ]
+    },
+    {
+      "tag": "fee structure for bba",
+      "patterns": [
+        "how much fee for bba?",
+        "fees for bba?",
+        "how much is the yearly fees for bba?",
+        "bba fees?"
+      ],
+      "responses": [
+        "please contact the college management for further details"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with online?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept cash, VISA, Mastercard and online",
+        "We accept all payments methods cash, credit cards, and online"
+      ]
+    },
+    {
+      "tag": "visit",
+      "patterns": [
+        "can i visit the college?",
+        "when can i visit the college?",
+        "is college open?"
+      ],
+      "responses": [
+        "yes college is open you can visit in the working hours",
+        "other than sunday its open on other working days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "what did the buffalo say when his son left for college? Bison.",
+        "What did the ocean say to the beach?" "Nothing, it just waved.",
+        "why do fathers take an extra pair of socks when they go golfing?" "In case they get a hole in one!",
+        "What do you call a factory that makes okay products? A satisfactory.",
+        "Dear Math, grow up and solve your own problems.",
+        "A Photon checks into a hotel and the receptionist asks if he needs any help with his luggage. No thanks,says the Photon I’m travelling light."
+
+      ]
+    }
+  ]
+}
